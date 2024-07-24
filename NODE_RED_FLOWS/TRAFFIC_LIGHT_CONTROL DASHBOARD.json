@@ -1,0 +1,3543 @@
+[
+    {
+        "id": "c0f11c6b.4e9d7",
+        "type": "tab",
+        "label": "Traffic ",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "9ada30c.7ca72d",
+        "type": "mqtt in",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "topic": "t1/red",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "f2e14030647119eb",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 550,
+        "y": 100,
+        "wires": [
+            [
+                "59abdc25.c06c44",
+                "15acf0da.076a1f"
+            ]
+        ]
+    },
+    {
+        "id": "5b81fe5e.4215d",
+        "type": "mqtt in",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "topic": "t1/yellow",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "f2e14030647119eb",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 560,
+        "y": 140,
+        "wires": [
+            [
+                "4af0c436.a2354c"
+            ]
+        ]
+    },
+    {
+        "id": "81b7d030.429fa",
+        "type": "mqtt in",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "topic": "t1/green",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "f2e14030647119eb",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 560,
+        "y": 180,
+        "wires": [
+            [
+                "f0977dc7.a8415"
+            ]
+        ]
+    },
+    {
+        "id": "74ab4b5d.c564d4",
+        "type": "mqtt in",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "topic": "t2/red",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "f2e14030647119eb",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 550,
+        "y": 240,
+        "wires": [
+            [
+                "21c3ec65.7ac1e4"
+            ]
+        ]
+    },
+    {
+        "id": "5333534d.0c31fc",
+        "type": "mqtt in",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "topic": "t2/yellow",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "f2e14030647119eb",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 560,
+        "y": 280,
+        "wires": [
+            [
+                "8ce87821.2067e8"
+            ]
+        ]
+    },
+    {
+        "id": "9ee92973.435c48",
+        "type": "mqtt in",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "topic": "t2/green",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "f2e14030647119eb",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 560,
+        "y": 320,
+        "wires": [
+            [
+                "67b4db95.d67de4"
+            ]
+        ]
+    },
+    {
+        "id": "aa8814ce.f98858",
+        "type": "mqtt in",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "topic": "t3/red",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "f2e14030647119eb",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 550,
+        "y": 380,
+        "wires": [
+            [
+                "bbf2fca1.a0624"
+            ]
+        ]
+    },
+    {
+        "id": "25b16624.7ad19a",
+        "type": "mqtt in",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "topic": "t3/yellow",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "f2e14030647119eb",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 560,
+        "y": 420,
+        "wires": [
+            [
+                "5f88eb08.3dbb84"
+            ]
+        ]
+    },
+    {
+        "id": "9089ce3f.d16cb",
+        "type": "mqtt in",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "topic": "t3/green",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "f2e14030647119eb",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 560,
+        "y": 460,
+        "wires": [
+            [
+                "5e81d376.98ec1c"
+            ]
+        ]
+    },
+    {
+        "id": "f6eb1887.b0e928",
+        "type": "mqtt in",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "topic": "t4/red",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "f2e14030647119eb",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 550,
+        "y": 520,
+        "wires": [
+            [
+                "fd82e1e.9255c2"
+            ]
+        ]
+    },
+    {
+        "id": "78f7ac4.d3af654",
+        "type": "mqtt in",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "topic": "t4/yellow",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "f2e14030647119eb",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 560,
+        "y": 560,
+        "wires": [
+            [
+                "b89b41d3.cc8ce"
+            ]
+        ]
+    },
+    {
+        "id": "7ead3d20.13a294",
+        "type": "mqtt in",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "topic": "t4/green",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "f2e14030647119eb",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 560,
+        "y": 600,
+        "wires": [
+            [
+                "cdd44ef5.61211"
+            ]
+        ]
+    },
+    {
+        "id": "15acf0da.076a1f",
+        "type": "debug",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 750,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "15f5dafe.d24f95",
+        "type": "ui_text",
+        "z": "c0f11c6b.4e9d7",
+        "group": "7cc2d95b.3aaca8",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "T1 Controls",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "x": 230,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "90343b21.49ee18",
+        "type": "mqtt out",
+        "z": "c0f11c6b.4e9d7",
+        "name": "T1 Controls",
+        "topic": "t1/control/r",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "f2e14030647119eb",
+        "x": 1250,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "4f7c5196.2c68c",
+        "type": "mqtt out",
+        "z": "c0f11c6b.4e9d7",
+        "name": "t2 Controls",
+        "topic": "t2/control/r",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "f2e14030647119eb",
+        "x": 1250,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "d802ec0e.bdcf2",
+        "type": "mqtt out",
+        "z": "c0f11c6b.4e9d7",
+        "name": "T3 Controls",
+        "topic": "t3/control/r",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "f2e14030647119eb",
+        "x": 1250,
+        "y": 1780,
+        "wires": []
+    },
+    {
+        "id": "cc53b4b6.8e3188",
+        "type": "mqtt out",
+        "z": "c0f11c6b.4e9d7",
+        "name": "T4 Controls",
+        "topic": "t4/control/r",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "f2e14030647119eb",
+        "x": 1250,
+        "y": 2240,
+        "wires": []
+    },
+    {
+        "id": "b4c3a741.712818",
+        "type": "inject",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "3",
+        "topic": "",
+        "payload": "0",
+        "payloadType": "str",
+        "x": 70,
+        "y": 20,
+        "wires": [
+            [
+                "2deb88ab.c962e8",
+                "57885d9d.e8f574",
+                "36f9be99.fdb352",
+                "45b9e04a.4aae1",
+                "4116e665.6beb18",
+                "763630e5.bc32e",
+                "f48bbd87.62555",
+                "6c617fde.4d063",
+                "42ecefb4.c9d61",
+                "9dd94767.0ba768",
+                "143fd596.ffe61a",
+                "58e17fa2.b671c"
+            ]
+        ]
+    },
+    {
+        "id": "2deb88ab.c962e8",
+        "type": "change",
+        "z": "c0f11c6b.4e9d7",
+        "name": "Global T1R",
+        "rules": [
+            {
+                "t": "set",
+                "p": "t1r",
+                "pt": "global",
+                "to": "0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 250,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "57885d9d.e8f574",
+        "type": "change",
+        "z": "c0f11c6b.4e9d7",
+        "name": "Global T1Y",
+        "rules": [
+            {
+                "t": "set",
+                "p": "t1y",
+                "pt": "global",
+                "to": "0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 250,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "36f9be99.fdb352",
+        "type": "change",
+        "z": "c0f11c6b.4e9d7",
+        "name": "Global T1G",
+        "rules": [
+            {
+                "t": "set",
+                "p": "t1g",
+                "pt": "global",
+                "to": "0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 250,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "45b9e04a.4aae1",
+        "type": "change",
+        "z": "c0f11c6b.4e9d7",
+        "name": "Global T2R",
+        "rules": [
+            {
+                "t": "set",
+                "p": "t2r",
+                "pt": "global",
+                "to": "0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 250,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4116e665.6beb18",
+        "type": "change",
+        "z": "c0f11c6b.4e9d7",
+        "name": "Global T2Y",
+        "rules": [
+            {
+                "t": "set",
+                "p": "t2y",
+                "pt": "global",
+                "to": "0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 250,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "763630e5.bc32e",
+        "type": "change",
+        "z": "c0f11c6b.4e9d7",
+        "name": "Global T2G",
+        "rules": [
+            {
+                "t": "set",
+                "p": "t2g",
+                "pt": "global",
+                "to": "0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 250,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f48bbd87.62555",
+        "type": "change",
+        "z": "c0f11c6b.4e9d7",
+        "name": "Global T3R",
+        "rules": [
+            {
+                "t": "set",
+                "p": "t3r",
+                "pt": "global",
+                "to": "0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 250,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6c617fde.4d063",
+        "type": "change",
+        "z": "c0f11c6b.4e9d7",
+        "name": "Global T3Y",
+        "rules": [
+            {
+                "t": "set",
+                "p": "t3y",
+                "pt": "global",
+                "to": "0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 250,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "42ecefb4.c9d61",
+        "type": "change",
+        "z": "c0f11c6b.4e9d7",
+        "name": "Global T3G",
+        "rules": [
+            {
+                "t": "set",
+                "p": "t3g",
+                "pt": "global",
+                "to": "0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 250,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9dd94767.0ba768",
+        "type": "change",
+        "z": "c0f11c6b.4e9d7",
+        "name": "Global T4R",
+        "rules": [
+            {
+                "t": "set",
+                "p": "t4r",
+                "pt": "global",
+                "to": "0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 250,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "143fd596.ffe61a",
+        "type": "change",
+        "z": "c0f11c6b.4e9d7",
+        "name": "Global T4Y",
+        "rules": [
+            {
+                "t": "set",
+                "p": "t4y",
+                "pt": "global",
+                "to": "0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 250,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "58e17fa2.b671c",
+        "type": "change",
+        "z": "c0f11c6b.4e9d7",
+        "name": "Global T4G",
+        "rules": [
+            {
+                "t": "set",
+                "p": "t4g",
+                "pt": "global",
+                "to": "0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 250,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "92144bbe.037b98",
+        "type": "inject",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "repeat": "0.1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 840,
+        "wires": [
+            [
+                "cd092610.2be568"
+            ]
+        ]
+    },
+    {
+        "id": "cd092610.2be568",
+        "type": "switch",
+        "z": "c0f11c6b.4e9d7",
+        "name": "ON/OFF State",
+        "property": "t1r",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 320,
+        "y": 840,
+        "wires": [
+            [
+                "96bf9593.aeef98"
+            ],
+            [
+                "115c9496.c2b94b"
+            ]
+        ]
+    },
+    {
+        "id": "96bf9593.aeef98",
+        "type": "function",
+        "z": "c0f11c6b.4e9d7",
+        "name": "if ON",
+        "func": "msg.color = \"white\";\nmsg.background = \"#34852D\";\nmsg.text = \"TURN OFF RED\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 510,
+        "y": 800,
+        "wires": [
+            [
+                "6e5031d3.f8961"
+            ]
+        ]
+    },
+    {
+        "id": "115c9496.c2b94b",
+        "type": "function",
+        "z": "c0f11c6b.4e9d7",
+        "name": "if OFF",
+        "func": "msg.color = \"white\";\nmsg.background = \"#961B2A\";\nmsg.text = \"TURN ON RED\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 510,
+        "y": 880,
+        "wires": [
+            [
+                "6e5031d3.f8961"
+            ]
+        ]
+    },
+    {
+        "id": "6e5031d3.f8961",
+        "type": "ui_button",
+        "z": "c0f11c6b.4e9d7",
+        "name": "ON/OFF",
+        "group": "7cc2d95b.3aaca8",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "{{msg.text}}",
+        "tooltip": "",
+        "color": "{{msg.color}}",
+        "bgcolor": "{{msg.background}}",
+        "icon": "",
+        "payload": "none",
+        "payloadType": "str",
+        "topic": "button",
+        "x": 660,
+        "y": 840,
+        "wires": [
+            [
+                "893913ec.e1d95"
+            ]
+        ]
+    },
+    {
+        "id": "893913ec.e1d95",
+        "type": "switch",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "button",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 800,
+        "y": 840,
+        "wires": [
+            [
+                "3bb623ba.832dfc"
+            ]
+        ]
+    },
+    {
+        "id": "3bb623ba.832dfc",
+        "type": "function",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "func": "var obtaindata = global.get(\"t1r\");\nif (obtaindata == \"1\"){msg.payload = 0}\nif (obtaindata == \"0\"){msg.payload = 1}\nmsg.topic = \"red\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 940,
+        "y": 840,
+        "wires": [
+            [
+                "5665170.cd0a8e8",
+                "2652c231.df0c4e",
+                "90343b21.49ee18"
+            ]
+        ]
+    },
+    {
+        "id": "5665170.cd0a8e8",
+        "type": "change",
+        "z": "c0f11c6b.4e9d7",
+        "name": "re-write global",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "t1r",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1100,
+        "y": 800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2652c231.df0c4e",
+        "type": "debug",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1250,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "3856be37.8c2332",
+        "type": "inject",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "repeat": "0.1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 980,
+        "wires": [
+            [
+                "bfdf3543.f6ad58"
+            ]
+        ]
+    },
+    {
+        "id": "bfdf3543.f6ad58",
+        "type": "switch",
+        "z": "c0f11c6b.4e9d7",
+        "name": "ON/OFF State",
+        "property": "t1y",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 320,
+        "y": 980,
+        "wires": [
+            [
+                "962731e.ce148d"
+            ],
+            [
+                "b531ae07.64345"
+            ]
+        ]
+    },
+    {
+        "id": "962731e.ce148d",
+        "type": "function",
+        "z": "c0f11c6b.4e9d7",
+        "name": "if ON",
+        "func": "msg.color = \"white\";\nmsg.background = \"#34852D\";\nmsg.text = \"TURN OFF YELLOW\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 510,
+        "y": 940,
+        "wires": [
+            [
+                "587139c8.ed0468"
+            ]
+        ]
+    },
+    {
+        "id": "b531ae07.64345",
+        "type": "function",
+        "z": "c0f11c6b.4e9d7",
+        "name": "if OFF",
+        "func": "msg.color = \"white\";\nmsg.background = \"#961B2A\";\nmsg.text = \"TURN ON YELLOW\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 510,
+        "y": 1020,
+        "wires": [
+            [
+                "587139c8.ed0468"
+            ]
+        ]
+    },
+    {
+        "id": "587139c8.ed0468",
+        "type": "ui_button",
+        "z": "c0f11c6b.4e9d7",
+        "name": "ON/OFF",
+        "group": "7cc2d95b.3aaca8",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "{{msg.text}}",
+        "tooltip": "",
+        "color": "{{msg.color}}",
+        "bgcolor": "{{msg.background}}",
+        "icon": "",
+        "payload": "none",
+        "payloadType": "str",
+        "topic": "button",
+        "x": 660,
+        "y": 980,
+        "wires": [
+            [
+                "294d1e0.a5cc6e2"
+            ]
+        ]
+    },
+    {
+        "id": "294d1e0.a5cc6e2",
+        "type": "switch",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "button",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 800,
+        "y": 980,
+        "wires": [
+            [
+                "78d74c44.ec3af4"
+            ]
+        ]
+    },
+    {
+        "id": "78d74c44.ec3af4",
+        "type": "function",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "func": "var obtaindata = global.get(\"t1y\");\nif (obtaindata == \"1\"){msg.payload = 0}\nif (obtaindata == \"0\"){msg.payload = 1}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 940,
+        "y": 980,
+        "wires": [
+            [
+                "aaa459a2.254da8",
+                "f694ba49.d8f8b8",
+                "e1355143.e5e65"
+            ]
+        ]
+    },
+    {
+        "id": "aaa459a2.254da8",
+        "type": "change",
+        "z": "c0f11c6b.4e9d7",
+        "name": "re-write global",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "t1y",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1100,
+        "y": 940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f694ba49.d8f8b8",
+        "type": "debug",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1250,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "7b71964f.074568",
+        "type": "inject",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "repeat": "0.1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 1120,
+        "wires": [
+            [
+                "6603bfd8.67a6b"
+            ]
+        ]
+    },
+    {
+        "id": "6603bfd8.67a6b",
+        "type": "switch",
+        "z": "c0f11c6b.4e9d7",
+        "name": "ON/OFF State",
+        "property": "t1g",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 320,
+        "y": 1120,
+        "wires": [
+            [
+                "18b9500c.7e351"
+            ],
+            [
+                "d976f94f.bedc98"
+            ]
+        ]
+    },
+    {
+        "id": "18b9500c.7e351",
+        "type": "function",
+        "z": "c0f11c6b.4e9d7",
+        "name": "if ON",
+        "func": "msg.color = \"white\";\nmsg.background = \"#34852D\";\nmsg.text = \"TURN OFF GREEN\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 510,
+        "y": 1080,
+        "wires": [
+            [
+                "54736d2c.24d604"
+            ]
+        ]
+    },
+    {
+        "id": "d976f94f.bedc98",
+        "type": "function",
+        "z": "c0f11c6b.4e9d7",
+        "name": "if OFF",
+        "func": "msg.color = \"white\";\nmsg.background = \"#961B2A\";\nmsg.text = \"TURN ON GREEN\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 510,
+        "y": 1160,
+        "wires": [
+            [
+                "54736d2c.24d604"
+            ]
+        ]
+    },
+    {
+        "id": "54736d2c.24d604",
+        "type": "ui_button",
+        "z": "c0f11c6b.4e9d7",
+        "name": "ON/OFF",
+        "group": "7cc2d95b.3aaca8",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "{{msg.text}}",
+        "tooltip": "",
+        "color": "{{msg.color}}",
+        "bgcolor": "{{msg.background}}",
+        "icon": "",
+        "payload": "none",
+        "payloadType": "str",
+        "topic": "button",
+        "x": 660,
+        "y": 1120,
+        "wires": [
+            [
+                "ff8acee5.1ead5"
+            ]
+        ]
+    },
+    {
+        "id": "ff8acee5.1ead5",
+        "type": "switch",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "button",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 800,
+        "y": 1120,
+        "wires": [
+            [
+                "b8add426.ef9678"
+            ]
+        ]
+    },
+    {
+        "id": "b8add426.ef9678",
+        "type": "function",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "func": "var obtaindata = global.get(\"t1g\");\nif (obtaindata == \"1\"){msg.payload = 0}\nif (obtaindata == \"0\"){msg.payload = 1}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 940,
+        "y": 1120,
+        "wires": [
+            [
+                "1a897abe.e42d35",
+                "1835afe8.3e4d6",
+                "93e5e71a.c08fd8"
+            ]
+        ]
+    },
+    {
+        "id": "1a897abe.e42d35",
+        "type": "change",
+        "z": "c0f11c6b.4e9d7",
+        "name": "re-write global",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "t1g",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1100,
+        "y": 1080,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1835afe8.3e4d6",
+        "type": "debug",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1250,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "cc25bb9d.66b978",
+        "type": "inject",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "repeat": "0.1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 1260,
+        "wires": [
+            [
+                "6c2ab771.0967a8"
+            ]
+        ]
+    },
+    {
+        "id": "6c2ab771.0967a8",
+        "type": "switch",
+        "z": "c0f11c6b.4e9d7",
+        "name": "ON/OFF State",
+        "property": "t2r",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 320,
+        "y": 1260,
+        "wires": [
+            [
+                "c4e7d0ca.0c30a"
+            ],
+            [
+                "1749f77f.f23f29"
+            ]
+        ]
+    },
+    {
+        "id": "c4e7d0ca.0c30a",
+        "type": "function",
+        "z": "c0f11c6b.4e9d7",
+        "name": "if ON",
+        "func": "msg.color = \"white\";\nmsg.background = \"#34852D\";\nmsg.text = \"TURN OFF RED\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 510,
+        "y": 1220,
+        "wires": [
+            [
+                "476c212a.3d727"
+            ]
+        ]
+    },
+    {
+        "id": "1749f77f.f23f29",
+        "type": "function",
+        "z": "c0f11c6b.4e9d7",
+        "name": "if OFF",
+        "func": "msg.color = \"white\";\nmsg.background = \"#961B2A\";\nmsg.text = \"TURN ON RED\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 510,
+        "y": 1300,
+        "wires": [
+            [
+                "476c212a.3d727"
+            ]
+        ]
+    },
+    {
+        "id": "476c212a.3d727",
+        "type": "ui_button",
+        "z": "c0f11c6b.4e9d7",
+        "name": "ON/OFF",
+        "group": "e24659dc.36e6d8",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "{{msg.text}}",
+        "tooltip": "",
+        "color": "{{msg.color}}",
+        "bgcolor": "{{msg.background}}",
+        "icon": "",
+        "payload": "none",
+        "payloadType": "str",
+        "topic": "button",
+        "x": 660,
+        "y": 1260,
+        "wires": [
+            [
+                "331584c7.2ddf9c"
+            ]
+        ]
+    },
+    {
+        "id": "331584c7.2ddf9c",
+        "type": "switch",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "button",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 800,
+        "y": 1260,
+        "wires": [
+            [
+                "c50c0d63.26196"
+            ]
+        ]
+    },
+    {
+        "id": "c50c0d63.26196",
+        "type": "function",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "func": "var obtaindata = global.get(\"t2r\");\nif (obtaindata == \"1\"){msg.payload = 0}\nif (obtaindata == \"0\"){msg.payload = 1}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 940,
+        "y": 1260,
+        "wires": [
+            [
+                "5dfa7d58.692514",
+                "f144b8d3.73c458",
+                "4f7c5196.2c68c"
+            ]
+        ]
+    },
+    {
+        "id": "5dfa7d58.692514",
+        "type": "change",
+        "z": "c0f11c6b.4e9d7",
+        "name": "re-write global",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "t2r",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1100,
+        "y": 1220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f144b8d3.73c458",
+        "type": "debug",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1250,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "87637658.3467e8",
+        "type": "inject",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "repeat": "0.1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 1400,
+        "wires": [
+            [
+                "8aaed7f9.8795b8"
+            ]
+        ]
+    },
+    {
+        "id": "8aaed7f9.8795b8",
+        "type": "switch",
+        "z": "c0f11c6b.4e9d7",
+        "name": "ON/OFF State",
+        "property": "t2y",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 320,
+        "y": 1400,
+        "wires": [
+            [
+                "62f260df.1c9d"
+            ],
+            [
+                "a6d86e9d.6282a"
+            ]
+        ]
+    },
+    {
+        "id": "62f260df.1c9d",
+        "type": "function",
+        "z": "c0f11c6b.4e9d7",
+        "name": "if ON",
+        "func": "msg.color = \"white\";\nmsg.background = \"#34852D\";\nmsg.text = \"TURN OFF YELLOW\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 510,
+        "y": 1360,
+        "wires": [
+            [
+                "f0d4546a.0b9bc8"
+            ]
+        ]
+    },
+    {
+        "id": "a6d86e9d.6282a",
+        "type": "function",
+        "z": "c0f11c6b.4e9d7",
+        "name": "if OFF",
+        "func": "msg.color = \"white\";\nmsg.background = \"#961B2A\";\nmsg.text = \"TURN ON YELLOW\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 510,
+        "y": 1440,
+        "wires": [
+            [
+                "f0d4546a.0b9bc8"
+            ]
+        ]
+    },
+    {
+        "id": "f0d4546a.0b9bc8",
+        "type": "ui_button",
+        "z": "c0f11c6b.4e9d7",
+        "name": "ON/OFF",
+        "group": "e24659dc.36e6d8",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "{{msg.text}}",
+        "tooltip": "",
+        "color": "{{msg.color}}",
+        "bgcolor": "{{msg.background}}",
+        "icon": "",
+        "payload": "none",
+        "payloadType": "str",
+        "topic": "button",
+        "x": 660,
+        "y": 1400,
+        "wires": [
+            [
+                "e3b53d6b.8ea4"
+            ]
+        ]
+    },
+    {
+        "id": "e3b53d6b.8ea4",
+        "type": "switch",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "button",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 800,
+        "y": 1400,
+        "wires": [
+            [
+                "8303b121.429fa"
+            ]
+        ]
+    },
+    {
+        "id": "8303b121.429fa",
+        "type": "function",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "func": "var obtaindata = global.get(\"t2y\");\nif (obtaindata == \"1\"){msg.payload = 0}\nif (obtaindata == \"0\"){msg.payload = 1}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 940,
+        "y": 1400,
+        "wires": [
+            [
+                "e859bb11.f5b488",
+                "8efc37cb.bd1498",
+                "b72d818c.42efb"
+            ]
+        ]
+    },
+    {
+        "id": "e859bb11.f5b488",
+        "type": "change",
+        "z": "c0f11c6b.4e9d7",
+        "name": "re-write global",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "t2y",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1100,
+        "y": 1360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8efc37cb.bd1498",
+        "type": "debug",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1250,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "17e45ce3.6be233",
+        "type": "inject",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "repeat": "0.1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 1540,
+        "wires": [
+            [
+                "11972f12.0c7a31"
+            ]
+        ]
+    },
+    {
+        "id": "11972f12.0c7a31",
+        "type": "switch",
+        "z": "c0f11c6b.4e9d7",
+        "name": "ON/OFF State",
+        "property": "t2g",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 320,
+        "y": 1540,
+        "wires": [
+            [
+                "a468cd44.93124"
+            ],
+            [
+                "c00e74ec.238a58"
+            ]
+        ]
+    },
+    {
+        "id": "a468cd44.93124",
+        "type": "function",
+        "z": "c0f11c6b.4e9d7",
+        "name": "if ON",
+        "func": "msg.color = \"white\";\nmsg.background = \"#34852D\";\nmsg.text = \"TURN OFF GREEN\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 510,
+        "y": 1500,
+        "wires": [
+            [
+                "9ff91ff7.9f2f9"
+            ]
+        ]
+    },
+    {
+        "id": "c00e74ec.238a58",
+        "type": "function",
+        "z": "c0f11c6b.4e9d7",
+        "name": "if OFF",
+        "func": "msg.color = \"white\";\nmsg.background = \"#961B2A\";\nmsg.text = \"TURN ON GREEN\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 510,
+        "y": 1580,
+        "wires": [
+            [
+                "9ff91ff7.9f2f9"
+            ]
+        ]
+    },
+    {
+        "id": "9ff91ff7.9f2f9",
+        "type": "ui_button",
+        "z": "c0f11c6b.4e9d7",
+        "name": "ON/OFF",
+        "group": "e24659dc.36e6d8",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "{{msg.text}}",
+        "tooltip": "",
+        "color": "{{msg.color}}",
+        "bgcolor": "{{msg.background}}",
+        "icon": "",
+        "payload": "none",
+        "payloadType": "str",
+        "topic": "button",
+        "x": 660,
+        "y": 1540,
+        "wires": [
+            [
+                "c9068f2e.1a914"
+            ]
+        ]
+    },
+    {
+        "id": "c9068f2e.1a914",
+        "type": "switch",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "button",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 800,
+        "y": 1540,
+        "wires": [
+            [
+                "5cfc5014.aadab"
+            ]
+        ]
+    },
+    {
+        "id": "5cfc5014.aadab",
+        "type": "function",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "func": "var obtaindata = global.get(\"t2g\");\nif (obtaindata == \"1\"){msg.payload = 0}\nif (obtaindata == \"0\"){msg.payload = 1}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 940,
+        "y": 1540,
+        "wires": [
+            [
+                "38578b5c.21e584",
+                "4916285c.326c68",
+                "6680c685.2ae3e8"
+            ]
+        ]
+    },
+    {
+        "id": "38578b5c.21e584",
+        "type": "change",
+        "z": "c0f11c6b.4e9d7",
+        "name": "re-write global",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "t2g",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1100,
+        "y": 1500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4916285c.326c68",
+        "type": "debug",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1250,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "9b192dd5.16539",
+        "type": "inject",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "repeat": "0.1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 1720,
+        "wires": [
+            [
+                "1ba89594.3449da"
+            ]
+        ]
+    },
+    {
+        "id": "1ba89594.3449da",
+        "type": "switch",
+        "z": "c0f11c6b.4e9d7",
+        "name": "ON/OFF State",
+        "property": "t3r",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 320,
+        "y": 1720,
+        "wires": [
+            [
+                "4591638a.fba5bc"
+            ],
+            [
+                "2b3252ea.ebe59e"
+            ]
+        ]
+    },
+    {
+        "id": "4591638a.fba5bc",
+        "type": "function",
+        "z": "c0f11c6b.4e9d7",
+        "name": "if ON",
+        "func": "msg.color = \"white\";\nmsg.background = \"#34852D\";\nmsg.text = \"TURN OFF RED\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 510,
+        "y": 1680,
+        "wires": [
+            [
+                "827d2ce.01820d"
+            ]
+        ]
+    },
+    {
+        "id": "2b3252ea.ebe59e",
+        "type": "function",
+        "z": "c0f11c6b.4e9d7",
+        "name": "if OFF",
+        "func": "msg.color = \"white\";\nmsg.background = \"#961B2A\";\nmsg.text = \"TURN ON RED\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 510,
+        "y": 1760,
+        "wires": [
+            [
+                "827d2ce.01820d"
+            ]
+        ]
+    },
+    {
+        "id": "827d2ce.01820d",
+        "type": "ui_button",
+        "z": "c0f11c6b.4e9d7",
+        "name": "ON/OFF",
+        "group": "dbb11a8a.8ff9c8",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "{{msg.text}}",
+        "tooltip": "",
+        "color": "{{msg.color}}",
+        "bgcolor": "{{msg.background}}",
+        "icon": "",
+        "payload": "none",
+        "payloadType": "str",
+        "topic": "button",
+        "x": 660,
+        "y": 1720,
+        "wires": [
+            [
+                "a799df09.71036"
+            ]
+        ]
+    },
+    {
+        "id": "a799df09.71036",
+        "type": "switch",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "button",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 800,
+        "y": 1720,
+        "wires": [
+            [
+                "35623736.8377c8"
+            ]
+        ]
+    },
+    {
+        "id": "35623736.8377c8",
+        "type": "function",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "func": "var obtaindata = global.get(\"t3r\");\nif (obtaindata == \"1\"){msg.payload = 0}\nif (obtaindata == \"0\"){msg.payload = 1}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 940,
+        "y": 1720,
+        "wires": [
+            [
+                "126b5702.0f8139",
+                "bf34ef30.bc041",
+                "d802ec0e.bdcf2"
+            ]
+        ]
+    },
+    {
+        "id": "126b5702.0f8139",
+        "type": "change",
+        "z": "c0f11c6b.4e9d7",
+        "name": "re-write global",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "t3r",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1100,
+        "y": 1680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bf34ef30.bc041",
+        "type": "debug",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1250,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "4e1ab5c7.3c9c2c",
+        "type": "inject",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "repeat": "0.1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 1860,
+        "wires": [
+            [
+                "21236fa0.f9783"
+            ]
+        ]
+    },
+    {
+        "id": "21236fa0.f9783",
+        "type": "switch",
+        "z": "c0f11c6b.4e9d7",
+        "name": "ON/OFF State",
+        "property": "t3y",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 320,
+        "y": 1860,
+        "wires": [
+            [
+                "7b25ea28.bce9c4"
+            ],
+            [
+                "19b3ab8.3989055"
+            ]
+        ]
+    },
+    {
+        "id": "7b25ea28.bce9c4",
+        "type": "function",
+        "z": "c0f11c6b.4e9d7",
+        "name": "if ON",
+        "func": "msg.color = \"white\";\nmsg.background = \"#34852D\";\nmsg.text = \"TURN OFF YELLOW\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 510,
+        "y": 1820,
+        "wires": [
+            [
+                "cfed2f6a.d7982"
+            ]
+        ]
+    },
+    {
+        "id": "19b3ab8.3989055",
+        "type": "function",
+        "z": "c0f11c6b.4e9d7",
+        "name": "if OFF",
+        "func": "msg.color = \"white\";\nmsg.background = \"#961B2A\";\nmsg.text = \"TURN ON YELLOW\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 510,
+        "y": 1900,
+        "wires": [
+            [
+                "cfed2f6a.d7982"
+            ]
+        ]
+    },
+    {
+        "id": "cfed2f6a.d7982",
+        "type": "ui_button",
+        "z": "c0f11c6b.4e9d7",
+        "name": "ON/OFF",
+        "group": "dbb11a8a.8ff9c8",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "{{msg.text}}",
+        "tooltip": "",
+        "color": "{{msg.color}}",
+        "bgcolor": "{{msg.background}}",
+        "icon": "",
+        "payload": "none",
+        "payloadType": "str",
+        "topic": "button",
+        "x": 660,
+        "y": 1860,
+        "wires": [
+            [
+                "bdbb72e7.dc44f"
+            ]
+        ]
+    },
+    {
+        "id": "bdbb72e7.dc44f",
+        "type": "switch",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "button",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 800,
+        "y": 1860,
+        "wires": [
+            [
+                "7884ea16.2c9844"
+            ]
+        ]
+    },
+    {
+        "id": "7884ea16.2c9844",
+        "type": "function",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "func": "var obtaindata = global.get(\"t3y\");\nif (obtaindata == \"1\"){msg.payload = 0}\nif (obtaindata == \"0\"){msg.payload = 1}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 940,
+        "y": 1860,
+        "wires": [
+            [
+                "76f7b568.19a66c",
+                "73cb3afb.fcfa14",
+                "3353bbc6.c9d444"
+            ]
+        ]
+    },
+    {
+        "id": "76f7b568.19a66c",
+        "type": "change",
+        "z": "c0f11c6b.4e9d7",
+        "name": "re-write global",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "t3y",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1080,
+        "y": 1820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "73cb3afb.fcfa14",
+        "type": "debug",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1250,
+        "y": 1860,
+        "wires": []
+    },
+    {
+        "id": "33b1406d.e7e9a",
+        "type": "inject",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "repeat": "0.1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 2000,
+        "wires": [
+            [
+                "f38f49f.76237b8"
+            ]
+        ]
+    },
+    {
+        "id": "f38f49f.76237b8",
+        "type": "switch",
+        "z": "c0f11c6b.4e9d7",
+        "name": "ON/OFF State",
+        "property": "t3g",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 320,
+        "y": 2000,
+        "wires": [
+            [
+                "1aa77a4d.42fa76"
+            ],
+            [
+                "aa1d937f.5a113"
+            ]
+        ]
+    },
+    {
+        "id": "1aa77a4d.42fa76",
+        "type": "function",
+        "z": "c0f11c6b.4e9d7",
+        "name": "if ON",
+        "func": "msg.color = \"white\";\nmsg.background = \"#34852D\";\nmsg.text = \"TURN OFF GREEN\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 510,
+        "y": 1960,
+        "wires": [
+            [
+                "7bf75597.1fd24c"
+            ]
+        ]
+    },
+    {
+        "id": "aa1d937f.5a113",
+        "type": "function",
+        "z": "c0f11c6b.4e9d7",
+        "name": "if OFF",
+        "func": "msg.color = \"white\";\nmsg.background = \"#961B2A\";\nmsg.text = \"TURN ON GREEN\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 510,
+        "y": 2040,
+        "wires": [
+            [
+                "7bf75597.1fd24c"
+            ]
+        ]
+    },
+    {
+        "id": "7bf75597.1fd24c",
+        "type": "ui_button",
+        "z": "c0f11c6b.4e9d7",
+        "name": "ON/OFF",
+        "group": "dbb11a8a.8ff9c8",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "{{msg.text}}",
+        "tooltip": "",
+        "color": "{{msg.color}}",
+        "bgcolor": "{{msg.background}}",
+        "icon": "",
+        "payload": "none",
+        "payloadType": "str",
+        "topic": "button",
+        "x": 660,
+        "y": 2000,
+        "wires": [
+            [
+                "146ab78b.ebc858"
+            ]
+        ]
+    },
+    {
+        "id": "146ab78b.ebc858",
+        "type": "switch",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "button",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 800,
+        "y": 2000,
+        "wires": [
+            [
+                "9cfbcbe7.2f4098"
+            ]
+        ]
+    },
+    {
+        "id": "9cfbcbe7.2f4098",
+        "type": "function",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "func": "var obtaindata = global.get(\"t3g\");\nif (obtaindata == \"1\"){msg.payload = 0}\nif (obtaindata == \"0\"){msg.payload = 1}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 940,
+        "y": 2000,
+        "wires": [
+            [
+                "a6dc465c.f42068",
+                "2de11830.5f3038",
+                "955cef81.8a135"
+            ]
+        ]
+    },
+    {
+        "id": "a6dc465c.f42068",
+        "type": "change",
+        "z": "c0f11c6b.4e9d7",
+        "name": "re-write global",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "t3g",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1080,
+        "y": 1960,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2de11830.5f3038",
+        "type": "debug",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1250,
+        "y": 2000,
+        "wires": []
+    },
+    {
+        "id": "5e57b7ab.7700d8",
+        "type": "inject",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "repeat": "0.1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 2200,
+        "wires": [
+            [
+                "6cc1563f.82bf88"
+            ]
+        ]
+    },
+    {
+        "id": "6cc1563f.82bf88",
+        "type": "switch",
+        "z": "c0f11c6b.4e9d7",
+        "name": "ON/OFF State",
+        "property": "t4r",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 320,
+        "y": 2200,
+        "wires": [
+            [
+                "a0318f25.aebe3"
+            ],
+            [
+                "2e20abc6.720864"
+            ]
+        ]
+    },
+    {
+        "id": "a0318f25.aebe3",
+        "type": "function",
+        "z": "c0f11c6b.4e9d7",
+        "name": "if ON",
+        "func": "msg.color = \"white\";\nmsg.background = \"#34852D\";\nmsg.text = \"TURN OFF RED\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 510,
+        "y": 2160,
+        "wires": [
+            [
+                "ef62d02.bfa793"
+            ]
+        ]
+    },
+    {
+        "id": "2e20abc6.720864",
+        "type": "function",
+        "z": "c0f11c6b.4e9d7",
+        "name": "if OFF",
+        "func": "msg.color = \"white\";\nmsg.background = \"#961B2A\";\nmsg.text = \"TURN ON RED\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 510,
+        "y": 2240,
+        "wires": [
+            [
+                "ef62d02.bfa793"
+            ]
+        ]
+    },
+    {
+        "id": "ef62d02.bfa793",
+        "type": "ui_button",
+        "z": "c0f11c6b.4e9d7",
+        "name": "ON/OFF",
+        "group": "cee599ee.56a748",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "{{msg.text}}",
+        "tooltip": "",
+        "color": "{{msg.color}}",
+        "bgcolor": "{{msg.background}}",
+        "icon": "",
+        "payload": "none",
+        "payloadType": "str",
+        "topic": "button",
+        "x": 660,
+        "y": 2200,
+        "wires": [
+            [
+                "3aee247.ed3aedc"
+            ]
+        ]
+    },
+    {
+        "id": "3aee247.ed3aedc",
+        "type": "switch",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "button",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 800,
+        "y": 2200,
+        "wires": [
+            [
+                "aef0d547.a14878"
+            ]
+        ]
+    },
+    {
+        "id": "aef0d547.a14878",
+        "type": "function",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "func": "var obtaindata = global.get(\"t4r\");\nif (obtaindata == \"1\"){msg.payload = 0}\nif (obtaindata == \"0\"){msg.payload = 1}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 940,
+        "y": 2200,
+        "wires": [
+            [
+                "bd7d7220.88a9d",
+                "9f79eeaf.df4ae",
+                "cc53b4b6.8e3188"
+            ]
+        ]
+    },
+    {
+        "id": "bd7d7220.88a9d",
+        "type": "change",
+        "z": "c0f11c6b.4e9d7",
+        "name": "re-write global",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "t4r",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1100,
+        "y": 2160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9f79eeaf.df4ae",
+        "type": "debug",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1250,
+        "y": 2200,
+        "wires": []
+    },
+    {
+        "id": "f35b1b4.d99f4e8",
+        "type": "inject",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "repeat": "0.1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 2340,
+        "wires": [
+            [
+                "4ac6a7b5.ca9a68"
+            ]
+        ]
+    },
+    {
+        "id": "4ac6a7b5.ca9a68",
+        "type": "switch",
+        "z": "c0f11c6b.4e9d7",
+        "name": "ON/OFF State",
+        "property": "t4y",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 320,
+        "y": 2340,
+        "wires": [
+            [
+                "f7c20164.6aa91"
+            ],
+            [
+                "c1b066f9.a78cb8"
+            ]
+        ]
+    },
+    {
+        "id": "f7c20164.6aa91",
+        "type": "function",
+        "z": "c0f11c6b.4e9d7",
+        "name": "if ON",
+        "func": "msg.color = \"white\";\nmsg.background = \"#34852D\";\nmsg.text = \"TURN OFF YELLOW\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 510,
+        "y": 2300,
+        "wires": [
+            [
+                "17fbbe43.fb89e2"
+            ]
+        ]
+    },
+    {
+        "id": "c1b066f9.a78cb8",
+        "type": "function",
+        "z": "c0f11c6b.4e9d7",
+        "name": "if OFF",
+        "func": "msg.color = \"white\";\nmsg.background = \"#961B2A\";\nmsg.text = \"TURN ON YELLOW\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 510,
+        "y": 2380,
+        "wires": [
+            [
+                "17fbbe43.fb89e2"
+            ]
+        ]
+    },
+    {
+        "id": "17fbbe43.fb89e2",
+        "type": "ui_button",
+        "z": "c0f11c6b.4e9d7",
+        "name": "ON/OFF",
+        "group": "cee599ee.56a748",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "{{msg.text}}",
+        "tooltip": "",
+        "color": "{{msg.color}}",
+        "bgcolor": "{{msg.background}}",
+        "icon": "",
+        "payload": "none",
+        "payloadType": "str",
+        "topic": "button",
+        "x": 660,
+        "y": 2340,
+        "wires": [
+            [
+                "948b3e85.ec8ef"
+            ]
+        ]
+    },
+    {
+        "id": "948b3e85.ec8ef",
+        "type": "switch",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "button",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 800,
+        "y": 2340,
+        "wires": [
+            [
+                "58943fb8.71699"
+            ]
+        ]
+    },
+    {
+        "id": "58943fb8.71699",
+        "type": "function",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "func": "var obtaindata = global.get(\"t4y\");\nif (obtaindata == \"1\"){msg.payload = 0}\nif (obtaindata == \"0\"){msg.payload = 1}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 940,
+        "y": 2340,
+        "wires": [
+            [
+                "20a199da.5d5c46",
+                "5efcb64e.335ba8",
+                "3b896f3b.d1474"
+            ]
+        ]
+    },
+    {
+        "id": "20a199da.5d5c46",
+        "type": "change",
+        "z": "c0f11c6b.4e9d7",
+        "name": "re-write global",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "t4y",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1100,
+        "y": 2300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5efcb64e.335ba8",
+        "type": "debug",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1250,
+        "y": 2340,
+        "wires": []
+    },
+    {
+        "id": "96c3ffd1.a71af",
+        "type": "inject",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "repeat": "0.1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 2480,
+        "wires": [
+            [
+                "91ce78b4.50dba8"
+            ]
+        ]
+    },
+    {
+        "id": "91ce78b4.50dba8",
+        "type": "switch",
+        "z": "c0f11c6b.4e9d7",
+        "name": "ON/OFF State",
+        "property": "t4g",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 320,
+        "y": 2480,
+        "wires": [
+            [
+                "d51281a4.68f84"
+            ],
+            [
+                "5eccc834.c15a28"
+            ]
+        ]
+    },
+    {
+        "id": "d51281a4.68f84",
+        "type": "function",
+        "z": "c0f11c6b.4e9d7",
+        "name": "if ON",
+        "func": "msg.color = \"white\";\nmsg.background = \"#34852D\";\nmsg.text = \"TURN OFF GREEN\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 510,
+        "y": 2440,
+        "wires": [
+            [
+                "27ee5959.38bc06"
+            ]
+        ]
+    },
+    {
+        "id": "5eccc834.c15a28",
+        "type": "function",
+        "z": "c0f11c6b.4e9d7",
+        "name": "if OFF",
+        "func": "msg.color = \"white\";\nmsg.background = \"#961B2A\";\nmsg.text = \"TURN ON GREEN\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 510,
+        "y": 2520,
+        "wires": [
+            [
+                "27ee5959.38bc06"
+            ]
+        ]
+    },
+    {
+        "id": "27ee5959.38bc06",
+        "type": "ui_button",
+        "z": "c0f11c6b.4e9d7",
+        "name": "ON/OFF",
+        "group": "cee599ee.56a748",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "{{msg.text}}",
+        "tooltip": "",
+        "color": "{{msg.color}}",
+        "bgcolor": "{{msg.background}}",
+        "icon": "",
+        "payload": "none",
+        "payloadType": "str",
+        "topic": "button",
+        "x": 660,
+        "y": 2480,
+        "wires": [
+            [
+                "af615dac.d87f5"
+            ]
+        ]
+    },
+    {
+        "id": "af615dac.d87f5",
+        "type": "switch",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "button",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 800,
+        "y": 2480,
+        "wires": [
+            [
+                "b9b26862.c09f88"
+            ]
+        ]
+    },
+    {
+        "id": "b9b26862.c09f88",
+        "type": "function",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "func": "var obtaindata = global.get(\"t4g\");\nif (obtaindata == \"1\"){msg.payload = 0}\nif (obtaindata == \"0\"){msg.payload = 1}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 940,
+        "y": 2480,
+        "wires": [
+            [
+                "a4f9c964.b0f608",
+                "9d73ab00.d29568",
+                "4d319dc8.7b6294"
+            ]
+        ]
+    },
+    {
+        "id": "a4f9c964.b0f608",
+        "type": "change",
+        "z": "c0f11c6b.4e9d7",
+        "name": "re-write global",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "t4g",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1100,
+        "y": 2440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9d73ab00.d29568",
+        "type": "debug",
+        "z": "c0f11c6b.4e9d7",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1250,
+        "y": 2480,
+        "wires": []
+    },
+    {
+        "id": "b1915910.84bdc8",
+        "type": "ui_text",
+        "z": "c0f11c6b.4e9d7",
+        "group": "e24659dc.36e6d8",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "T2 Controls",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "x": 210,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "bf2c7f27.de0a5",
+        "type": "ui_text",
+        "z": "c0f11c6b.4e9d7",
+        "group": "dbb11a8a.8ff9c8",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "T3 Controls",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "x": 210,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "fffa83e2.8f4ac",
+        "type": "ui_text",
+        "z": "c0f11c6b.4e9d7",
+        "group": "cee599ee.56a748",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "T4 Controls",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "x": 190,
+        "y": 2120,
+        "wires": []
+    },
+    {
+        "id": "e1355143.e5e65",
+        "type": "mqtt out",
+        "z": "c0f11c6b.4e9d7",
+        "name": "T1 Controls",
+        "topic": "t1/control/y",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "f2e14030647119eb",
+        "x": 1250,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "93e5e71a.c08fd8",
+        "type": "mqtt out",
+        "z": "c0f11c6b.4e9d7",
+        "name": "T1 Controls",
+        "topic": "t1/control/g",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "f2e14030647119eb",
+        "x": 1250,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "b72d818c.42efb",
+        "type": "mqtt out",
+        "z": "c0f11c6b.4e9d7",
+        "name": "t2 Controls",
+        "topic": "t2/control/y",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "f2e14030647119eb",
+        "x": 1250,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "6680c685.2ae3e8",
+        "type": "mqtt out",
+        "z": "c0f11c6b.4e9d7",
+        "name": "t2 Controls",
+        "topic": "t2/control/g",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "f2e14030647119eb",
+        "x": 1250,
+        "y": 1600,
+        "wires": []
+    },
+    {
+        "id": "3353bbc6.c9d444",
+        "type": "mqtt out",
+        "z": "c0f11c6b.4e9d7",
+        "name": "T3 Controls",
+        "topic": "t3/control/y",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "f2e14030647119eb",
+        "x": 1250,
+        "y": 1920,
+        "wires": []
+    },
+    {
+        "id": "955cef81.8a135",
+        "type": "mqtt out",
+        "z": "c0f11c6b.4e9d7",
+        "name": "T3 Controls",
+        "topic": "t3/control/g",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "f2e14030647119eb",
+        "x": 1250,
+        "y": 2060,
+        "wires": []
+    },
+    {
+        "id": "3b896f3b.d1474",
+        "type": "mqtt out",
+        "z": "c0f11c6b.4e9d7",
+        "name": "T4 Controls",
+        "topic": "t4/control/y",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "f2e14030647119eb",
+        "x": 1250,
+        "y": 2400,
+        "wires": []
+    },
+    {
+        "id": "4d319dc8.7b6294",
+        "type": "mqtt out",
+        "z": "c0f11c6b.4e9d7",
+        "name": "T4 Controls",
+        "topic": "t4/control/g",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "f2e14030647119eb",
+        "x": 1250,
+        "y": 2540,
+        "wires": []
+    },
+    {
+        "id": "59abdc25.c06c44",
+        "type": "ui_led",
+        "z": "c0f11c6b.4e9d7",
+        "order": 1,
+        "group": "7cc2d95b.3aaca8",
+        "width": 0,
+        "height": 0,
+        "label": "T1 Red",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "red",
+                "value": "1",
+                "valueType": "str"
+            }
+        ],
+        "name": "T1 Red",
+        "x": 740,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "4af0c436.a2354c",
+        "type": "ui_led",
+        "z": "c0f11c6b.4e9d7",
+        "order": 2,
+        "group": "7cc2d95b.3aaca8",
+        "width": 0,
+        "height": 0,
+        "label": "T1 Yellow",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "yellow",
+                "value": "1",
+                "valueType": "str"
+            }
+        ],
+        "name": "T1 Yellow",
+        "x": 740,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "f0977dc7.a8415",
+        "type": "ui_led",
+        "z": "c0f11c6b.4e9d7",
+        "order": 3,
+        "group": "7cc2d95b.3aaca8",
+        "width": 0,
+        "height": 0,
+        "label": "T1 Green",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "green",
+                "value": "1",
+                "valueType": "str"
+            }
+        ],
+        "name": "T1 Green",
+        "x": 740,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "21c3ec65.7ac1e4",
+        "type": "ui_led",
+        "z": "c0f11c6b.4e9d7",
+        "order": 1,
+        "group": "e24659dc.36e6d8",
+        "width": 0,
+        "height": 0,
+        "label": "T2 Red",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "red",
+                "value": "1",
+                "valueType": "str"
+            }
+        ],
+        "name": "T2 Red",
+        "x": 740,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "8ce87821.2067e8",
+        "type": "ui_led",
+        "z": "c0f11c6b.4e9d7",
+        "order": 2,
+        "group": "e24659dc.36e6d8",
+        "width": 0,
+        "height": 0,
+        "label": "T2 Yellow",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "yellow",
+                "value": "1",
+                "valueType": "str"
+            }
+        ],
+        "name": "T2 Yellow",
+        "x": 740,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "67b4db95.d67de4",
+        "type": "ui_led",
+        "z": "c0f11c6b.4e9d7",
+        "order": 3,
+        "group": "e24659dc.36e6d8",
+        "width": 0,
+        "height": 0,
+        "label": "T2 Green",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "green",
+                "value": "1",
+                "valueType": "str"
+            }
+        ],
+        "name": "T2 Green",
+        "x": 740,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "bbf2fca1.a0624",
+        "type": "ui_led",
+        "z": "c0f11c6b.4e9d7",
+        "order": 1,
+        "group": "dbb11a8a.8ff9c8",
+        "width": 0,
+        "height": 0,
+        "label": "T3 Red",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "red",
+                "value": "1",
+                "valueType": "str"
+            }
+        ],
+        "name": "T3 Red",
+        "x": 740,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "5f88eb08.3dbb84",
+        "type": "ui_led",
+        "z": "c0f11c6b.4e9d7",
+        "order": 2,
+        "group": "dbb11a8a.8ff9c8",
+        "width": 0,
+        "height": 0,
+        "label": "T3 Yellow",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "yellow",
+                "value": "1",
+                "valueType": "str"
+            }
+        ],
+        "name": "T3 Yellow",
+        "x": 740,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "5e81d376.98ec1c",
+        "type": "ui_led",
+        "z": "c0f11c6b.4e9d7",
+        "order": 3,
+        "group": "dbb11a8a.8ff9c8",
+        "width": 0,
+        "height": 0,
+        "label": "T3 Green",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "green",
+                "value": "1",
+                "valueType": "str"
+            }
+        ],
+        "name": "T3 Green",
+        "x": 740,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "fd82e1e.9255c2",
+        "type": "ui_led",
+        "z": "c0f11c6b.4e9d7",
+        "order": 1,
+        "group": "cee599ee.56a748",
+        "width": 0,
+        "height": 0,
+        "label": "T4 Red",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "red",
+                "value": "1",
+                "valueType": "str"
+            }
+        ],
+        "name": "T4 Red",
+        "x": 740,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "b89b41d3.cc8ce",
+        "type": "ui_led",
+        "z": "c0f11c6b.4e9d7",
+        "order": 2,
+        "group": "cee599ee.56a748",
+        "width": 0,
+        "height": 0,
+        "label": "T4 Yellow",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "yellow",
+                "value": "1",
+                "valueType": "str"
+            }
+        ],
+        "name": "T4 Yellow",
+        "x": 740,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "cdd44ef5.61211",
+        "type": "ui_led",
+        "z": "c0f11c6b.4e9d7",
+        "order": 3,
+        "group": "cee599ee.56a748",
+        "width": 0,
+        "height": 0,
+        "label": "T4 Green",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "green",
+                "value": "1",
+                "valueType": "str"
+            }
+        ],
+        "name": "T4 Green",
+        "x": 740,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "f2e14030647119eb",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "192.168.235.178",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "7cc2d95b.3aaca8",
+        "type": "ui_group",
+        "name": "T1 Status",
+        "tab": "428b56b0.7d3348",
+        "order": 1,
+        "disp": true,
+        "width": 5,
+        "collapse": false
+    },
+    {
+        "id": "e24659dc.36e6d8",
+        "type": "ui_group",
+        "name": "T2 Status",
+        "tab": "428b56b0.7d3348",
+        "order": 2,
+        "disp": true,
+        "width": 5,
+        "collapse": false
+    },
+    {
+        "id": "dbb11a8a.8ff9c8",
+        "type": "ui_group",
+        "name": "T3 Status",
+        "tab": "428b56b0.7d3348",
+        "order": 3,
+        "disp": true,
+        "width": 5,
+        "collapse": false
+    },
+    {
+        "id": "cee599ee.56a748",
+        "type": "ui_group",
+        "name": "T4 Status",
+        "tab": "428b56b0.7d3348",
+        "order": 4,
+        "disp": true,
+        "width": 5,
+        "collapse": false
+    },
+    {
+        "id": "428b56b0.7d3348",
+        "type": "ui_tab",
+        "name": "Traffic Signals",
+        "icon": "traffic",
+        "order": 6,
+        "disabled": false,
+        "hidden": false
+    }
+]

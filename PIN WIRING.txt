@@ -1,0 +1,120 @@
+ESP-32 BOARD - 1:-
+
+
+RFID ---- ESP32 PIN ---- COLOR 
+SDA           21         Purple 
+SCK           18	 Blue
+MOSI          23   	 Green
+MISO          19	 Yellow
+GND           GND	 Orange 
+RST           22	 Red
+3V3           3V3	 Brown
+
+IR   ---- ESP32 PIN ---- COLOR
+GND   	      GND  	 Blue 
+DATA   	      25	 Green
+VCC 	      3V3	 Yellow
+
+5V Servo  ESP32 PIN ---- COLOR 
+Signal        27         Orange
+VCC           5V	 Red
+GND  	      GND 	 Brown
+
+WATERLVL  ESP32 PIN ---- COLOR 
+TOP_PIN       34         Red
+Bottom_PIN    32         Red
+RELAY_PIN     14         Purple
+LED_R         13         Red
+LED_G         12         Green
+
+
+ESP-32 BOARD - 2:-
+
+
+LDR  ---- ESP32 PIN ---- COLOR 
+AO    	      34         Brown
+VCC  	      3V3        White
+GND           GND        Black
+
+Flame---- ESP32 PIN ---- COLOR
+VCC 	      3V3	 White
+GND 	      GND 	 Black 
+DATA 	      33 	 
+
+PIR  ---- ESP32 PIN ---- COLOR 
+PIR 1         12       
+PIR 2         14
+VCC           5V
+GND           GND 
+
+Door ---- ESP32 PIN ---- COLOR 
+DATA(LFT)     19
+GND(RHT)      GND 
+
+RELAY---- ESP32 PIN ---- COLOR 
+VCC  	      5V
+GND 	      GND
+IN1           4
+IN2           2 
+
+
+
+ESP-32 BOARD - 3 :-
+
+Traffic Lights ---- ESP32 PIN ---- COLOR
+
+t1r  			2	   Red
+t1y 			4	   Yellow
+t1g 			5	   Green
+t2r 			18	   Red
+t2y 			19	   Yellow
+t2g 			21	   Green
+t3r 			22	   Red
+t3y 			23	   Yellow
+t3g 			13	   Green
+t4r 			12	   Red
+t4y  			14	   Yellow
+t4g 			27	   Green
+
+
+ESP-32 BOARD - 4:-
+
+DISPLAY ----- ESP32
+VCC	        3V3
+GND 		GND
+CS		15
+RST 		4
+DC		2
+SDA		23
+SCL		18
+LED/BLK		32
+
+MQ135 ---- ESP32 
+DO 	    34
+VCC	    3v3
+GND    	    GND
+
+DHT 11 ---- ESP32 
+Data  	    25
+VCC	    3v3
+GND    	    GND
+
+
+ESP32 BOARD - 5:-
+
+Display -----  ESP32 
+Vin		3V3
+GND		GND
+SCL		22
+SDA		21
+
+
+ESP21 BOARD - 6:-
+
+DISPLAY -----  ESP32 
+SDA   		23
+SCK    		22
+DC     		4
+RESET  		2
+VCC 		3V3
+GND		GND

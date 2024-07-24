@@ -1,0 +1,373 @@
+[
+    {
+        "id": "a5eddcc1f43e1d05",
+        "type": "tab",
+        "label": "Home Control",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "0d9c4868f59b5091",
+        "type": "mqtt in",
+        "z": "a5eddcc1f43e1d05",
+        "name": "",
+        "topic": "home/water/pump",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "5f9954586b324ae9",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 130,
+        "y": 240,
+        "wires": [
+            [
+                "c15c7261c96f95d9"
+            ]
+        ]
+    },
+    {
+        "id": "c15c7261c96f95d9",
+        "type": "ui_text",
+        "z": "a5eddcc1f43e1d05",
+        "group": "water-control",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Pump Status",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 370,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "95093c59484b2238",
+        "type": "mqtt in",
+        "z": "a5eddcc1f43e1d05",
+        "name": "",
+        "topic": "home/water/level",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "5f9954586b324ae9",
+        "inputs": 0,
+        "x": 140,
+        "y": 300,
+        "wires": [
+            [
+                "ac5d1255ad98ed36"
+            ]
+        ]
+    },
+    {
+        "id": "ac5d1255ad98ed36",
+        "type": "ui_text",
+        "z": "a5eddcc1f43e1d05",
+        "group": "water-control",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Water Level",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 370,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "b5cb6feb154095b0",
+        "type": "mqtt out",
+        "z": "a5eddcc1f43e1d05",
+        "name": "",
+        "topic": "home/water/pump/control",
+        "qos": "",
+        "retain": "",
+        "broker": "5f9954586b324ae9",
+        "x": 390,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "68952746e2454011",
+        "type": "ui_button",
+        "z": "a5eddcc1f43e1d05",
+        "name": "",
+        "group": "water-control",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Pump On",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "on",
+        "payloadType": "str",
+        "topic": "",
+        "x": 140,
+        "y": 360,
+        "wires": [
+            [
+                "b5cb6feb154095b0"
+            ]
+        ]
+    },
+    {
+        "id": "a6fd53e5cad55f81",
+        "type": "ui_button",
+        "z": "a5eddcc1f43e1d05",
+        "name": "",
+        "group": "water-control",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Pump Off",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "off",
+        "payloadType": "str",
+        "topic": "",
+        "x": 140,
+        "y": 420,
+        "wires": [
+            [
+                "b5cb6feb154095b0"
+            ]
+        ]
+    },
+    {
+        "id": "1936c3d2720390d3",
+        "type": "mqtt in",
+        "z": "a5eddcc1f43e1d05",
+        "name": "",
+        "topic": "esp32/servo/status",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "5f9954586b324ae9",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 140,
+        "y": 60,
+        "wires": [
+            [
+                "ed9f2d41d05c1bde"
+            ]
+        ]
+    },
+    {
+        "id": "ed9f2d41d05c1bde",
+        "type": "ui_text",
+        "z": "a5eddcc1f43e1d05",
+        "group": "servo-control",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Gate Status",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 370,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "f52b80465740efc6",
+        "type": "mqtt out",
+        "z": "a5eddcc1f43e1d05",
+        "name": "",
+        "topic": "esp32/servo/control",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "5f9954586b324ae9",
+        "x": 370,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "3bfe52f5e0934eb4",
+        "type": "ui_button",
+        "z": "a5eddcc1f43e1d05",
+        "name": "",
+        "group": "servo-control",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Open Gate",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "open",
+        "payloadType": "str",
+        "topic": "",
+        "x": 140,
+        "y": 120,
+        "wires": [
+            [
+                "f52b80465740efc6"
+            ]
+        ]
+    },
+    {
+        "id": "4291e4ae175dd6cf",
+        "type": "ui_button",
+        "z": "a5eddcc1f43e1d05",
+        "name": "",
+        "group": "servo-control",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Close Gate",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "close",
+        "payloadType": "str",
+        "topic": "",
+        "x": 140,
+        "y": 180,
+        "wires": [
+            [
+                "f52b80465740efc6"
+            ]
+        ]
+    },
+    {
+        "id": "c6d9acc5ede4c04a",
+        "type": "mqtt in",
+        "z": "a5eddcc1f43e1d05",
+        "name": "",
+        "topic": "esp32/ir/status",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "5f9954586b324ae9",
+        "inputs": 0,
+        "x": 340,
+        "y": 200,
+        "wires": [
+            [
+                "a4853bda105e6049"
+            ]
+        ]
+    },
+    {
+        "id": "a4853bda105e6049",
+        "type": "ui_text",
+        "z": "a5eddcc1f43e1d05",
+        "group": "servo-control",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "IR Status",
+        "format": "{{msg.payload}} cm",
+        "layout": "row-spread",
+        "x": 560,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "e9b05443bf1a7567",
+        "type": "mqtt in",
+        "z": "a5eddcc1f43e1d05",
+        "name": "",
+        "topic": "esp32/rfid/status",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "5f9954586b324ae9",
+        "inputs": 0,
+        "x": 340,
+        "y": 360,
+        "wires": [
+            [
+                "28a91d771e413292"
+            ]
+        ]
+    },
+    {
+        "id": "28a91d771e413292",
+        "type": "ui_text",
+        "z": "a5eddcc1f43e1d05",
+        "group": "servo-control",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "RFID Status",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 510,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "5f9954586b324ae9",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "192.168.235.178",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "water-control",
+        "type": "ui_group",
+        "name": "Water Control",
+        "tab": "home-control",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "servo-control",
+        "type": "ui_group",
+        "name": "Servo Control",
+        "tab": "home-control",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "home-control",
+        "type": "ui_tab",
+        "name": "Home Control",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    }
+]

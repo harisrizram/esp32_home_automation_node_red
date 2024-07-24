@@ -1,0 +1,497 @@
+[
+    {
+        "id": "8cda123b.07c5e",
+        "type": "tab",
+        "label": "Home Automation",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "2c3b1bb0.b39bb4",
+        "type": "mqtt in",
+        "z": "8cda123b.07c5e",
+        "name": "",
+        "topic": "home/doorSensor",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "f2e14030647119eb",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 160,
+        "y": 100,
+        "wires": [
+            [
+                "ca98ef65.c7d6e"
+            ]
+        ]
+    },
+    {
+        "id": "ca98ef65.c7d6e",
+        "type": "ui_text",
+        "z": "8cda123b.07c5e",
+        "group": "4b1790d4.2204f",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Door Sensor",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 360,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "cd4e24ba.3ec468",
+        "type": "mqtt in",
+        "z": "8cda123b.07c5e",
+        "name": "",
+        "topic": "home/pirSensor1",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "f2e14030647119eb",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 160,
+        "y": 160,
+        "wires": [
+            [
+                "d109ba6d.99f448"
+            ]
+        ]
+    },
+    {
+        "id": "d109ba6d.99f448",
+        "type": "ui_text",
+        "z": "8cda123b.07c5e",
+        "group": "4b1790d4.2204f",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "PIR Sensor 1",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 360,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "cf0a4b70.262328",
+        "type": "mqtt in",
+        "z": "8cda123b.07c5e",
+        "name": "",
+        "topic": "home/pirSensor2",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "f2e14030647119eb",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 160,
+        "y": 220,
+        "wires": [
+            [
+                "4a79b7b.9c6eb48"
+            ]
+        ]
+    },
+    {
+        "id": "4a79b7b.9c6eb48",
+        "type": "ui_text",
+        "z": "8cda123b.07c5e",
+        "group": "4b1790d4.2204f",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "PIR Sensor 2",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 360,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "e147d5a8.28fd78",
+        "type": "mqtt in",
+        "z": "8cda123b.07c5e",
+        "name": "",
+        "topic": "home/ldrSensor",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "f2e14030647119eb",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 160,
+        "y": 280,
+        "wires": [
+            [
+                "896bf702.4569c8"
+            ]
+        ]
+    },
+    {
+        "id": "896bf702.4569c8",
+        "type": "ui_text",
+        "z": "8cda123b.07c5e",
+        "group": "4b1790d4.2204f",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "LDR Sensor",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 360,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "37e7f168.5c2dae",
+        "type": "mqtt in",
+        "z": "8cda123b.07c5e",
+        "name": "",
+        "topic": "home/intruder",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "f2e14030647119eb",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 160,
+        "y": 340,
+        "wires": [
+            [
+                "c2c6dbf7.a26c28"
+            ]
+        ]
+    },
+    {
+        "id": "c2c6dbf7.a26c28",
+        "type": "ui_text",
+        "z": "8cda123b.07c5e",
+        "group": "4b1790d4.2204f",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Intruder Alert",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 360,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "62c02102.c6b32",
+        "type": "ui_switch",
+        "z": "8cda123b.07c5e",
+        "name": "",
+        "label": "Relay 1",
+        "tooltip": "",
+        "group": "4b1790d4.2204f",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "home/relay1",
+        "style": "",
+        "onvalue": "ON",
+        "onvalueType": "str",
+        "offvalue": "OFF",
+        "offvalueType": "str",
+        "x": 160,
+        "y": 400,
+        "wires": [
+            [
+                "ee88f14d.6bc"
+            ]
+        ]
+    },
+    {
+        "id": "ee88f14d.6bc",
+        "type": "mqtt out",
+        "z": "8cda123b.07c5e",
+        "name": "",
+        "topic": "home/relay1",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "f2e14030647119eb",
+        "x": 360,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "8d9bb63f.0842e8",
+        "type": "ui_switch",
+        "z": "8cda123b.07c5e",
+        "name": "",
+        "label": "Relay 2",
+        "tooltip": "",
+        "group": "4b1790d4.2204f",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "home/relay2",
+        "style": "",
+        "onvalue": "ON",
+        "onvalueType": "str",
+        "offvalue": "OFF",
+        "offvalueType": "str",
+        "x": 160,
+        "y": 460,
+        "wires": [
+            [
+                "7768d74b.c91a08"
+            ]
+        ]
+    },
+    {
+        "id": "7768d74b.c91a08",
+        "type": "mqtt out",
+        "z": "8cda123b.07c5e",
+        "name": "",
+        "topic": "home/relay2",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "f2e14030647119eb",
+        "x": 360,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "ee67c882.0e6db8",
+        "type": "ui_button",
+        "z": "8cda123b.07c5e",
+        "name": "",
+        "group": "4b1790d4.2204f",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Play Buzzer",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "ON",
+        "payloadType": "str",
+        "topic": "home/buzzer",
+        "x": 160,
+        "y": 520,
+        "wires": [
+            [
+                "58dd02a2.d8c93c"
+            ]
+        ]
+    },
+    {
+        "id": "58dd02a2.d8c93c",
+        "type": "mqtt out",
+        "z": "8cda123b.07c5e",
+        "name": "",
+        "topic": "home/buzzer",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "f2e14030647119eb",
+        "x": 360,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "c8121747f11e0b65",
+        "type": "mqtt in",
+        "z": "8cda123b.07c5e",
+        "name": "Flame Sensor",
+        "topic": "arduino/sensors/flame",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "f2e14030647119eb",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 510,
+        "y": 560,
+        "wires": [
+            [
+                "33acbd7d2fa8f7d3"
+            ]
+        ]
+    },
+    {
+        "id": "33acbd7d2fa8f7d3",
+        "type": "ui_text",
+        "z": "8cda123b.07c5e",
+        "group": "4b1790d4.2204f",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "name": "Flame Sensor",
+        "label": "Flame Sensor",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 747.1428527832031,
+        "y": 541.9047241210938,
+        "wires": []
+    },
+    {
+        "id": "4e0db48ebd8181f0",
+        "type": "mqtt in",
+        "z": "8cda123b.07c5e",
+        "name": "Buzzer",
+        "topic": "arduino/sensors/buzzer",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "f2e14030647119eb",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 487.1428527832031,
+        "y": 601.9047241210938,
+        "wires": [
+            [
+                "4cf4a14082923592"
+            ]
+        ]
+    },
+    {
+        "id": "4cf4a14082923592",
+        "type": "ui_text",
+        "z": "8cda123b.07c5e",
+        "group": "4b1790d4.2204f",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "name": "Buzzer",
+        "label": "Buzzer",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 727.1428527832031,
+        "y": 601.9047241210938,
+        "wires": []
+    },
+    {
+        "id": "f0d35638b0593fa9",
+        "type": "ui_template",
+        "z": "8cda123b.07c5e",
+        "group": "d6307f3e.c95b6",
+        "name": "background",
+        "order": 11,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    body {\n        background-image: url('https://img.freepik.com/free-photo/abstract-network-connections-background_1048-7961.jpg?size=626&ext=jpg');\n        background-size: cover;\n    }\n</style>",
+        "storeOutMessages": false,
+        "fwdInMessages": false,
+        "resendOnRefresh": true,
+        "templateScope": "global",
+        "className": "",
+        "x": 210,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f2e14030647119eb",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "192.168.235.178",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "4b1790d4.2204f",
+        "type": "ui_group",
+        "name": "Home Automation",
+        "tab": "a72be8a7.f36a98",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "d6307f3e.c95b6",
+        "type": "ui_group",
+        "name": "Control Panel",
+        "tab": "aff4f908d86367ab",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a72be8a7.f36a98",
+        "type": "ui_tab",
+        "name": "Lighting_Intruder",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "aff4f908d86367ab",
+        "type": "ui_tab",
+        "name": "Parking_Lot",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    }
+]
